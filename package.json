@@ -1,0 +1,12 @@
+{
+  "name": "pii-mutation-observatory",
+  "private": true,
+  "scripts": {
+    "test:demo": "node scripts/test-demo.mjs",
+    "record:demo": "node scripts/record-demo.mjs",
+    "test:codex-run": "node scripts/validate-codex-run.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}
